@@ -1,0 +1,32 @@
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0 29px;
+  }
+
+  .nav__wrapper {
+    margin-left: 0px;
+  }
+  .menu__wrapper {
+    display: none;
+  }
+
+  .nav__logo {
+    width: 47px;
+    height: 11px;
+  }
+
+  .nav__signin--btn {
+    margin-left: 128px;
+    margin-right: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border: 1px solid #36383e;
+  }
+
+  .menu-icon {
+    margin-left: 46px;
+    display: block;
+  }
+}

@@ -1,15 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project-01</title>
     <!-- Reset css  -->
-     <link rel="stylesheet" href="./asset/css/reset.css">
-     <!-- Style -->
-      <link rel="stylesheet" href="./asset/css/main.css">
-</head>
-<body>
-    <h1>hello</h1>
-</body>
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <!--  Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="./asset/css/main.css" />
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./asset/css/responsive.css" />
+  </head>
+  <body style="height: 5000px">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#"
+            ><img src="./asset/icons/logo.svg" alt="#" class="nav__logo"
+          /></a>
+          <div class="menu__wrapper">
+            <ul class="menu__list" id="nav-tabs">
+              <li class="menu__item"><a href="#~">Home</a></li>
+              <li class="menu__item"><a href="#~">Products</a></li>
+              <li class="menu__item"><a href="#~">Guidlines</a></li>
+              <li class="menu__item"><a href="#~">Review</a></li>
+            </ul>
+            <div class="active-line"></div>
+          </div>
+          <button class="nav__signin--btn">Sign in</button>
+          <img src="./asset/icons/menu-icon.svg" alt="" class="menu-icon" />
+        </nav>
+        <div class="header__wrapper">
+          <div class="header__content">
+            <h2 class="header__title">
+              Make <span class="title__highlight">Management</span> Way More
+              Easier Than Ever
+            </h2>
+            <p class="header__sub--title">
+              The online collaborative management platform to bring more
+              efficiency and performace
+            </p>
+            <div class="header__action">
+              <button class="header__action--btn">Request Demo</button
+              ><button class="header__action--btn">Contact Us</button>
+            </div>
+          </div>
+          <div class="content__decor content__decor--left">
+            <img
+              src="./asset/icons/header-decor.svg"
+              alt=""
+              class="content__decor-1"
+            />
+            <img
+              src="./asset/icons/header-decor-2.svg"
+              alt=""
+              class="content__decor-2"
+            />
+            <img
+              src="./asset/icons/header-decor-2.svg"
+              alt=""
+              class="content__decor-3"
+            />
+            <img
+              src="./asset/icons/header-decor-2.svg"
+              alt=""
+              class="content__decor-4"
+            />
+          </div>
+          <div class="content__decor content__decor--right">
+            <img
+              src="./asset/icons/header-decor.svg"
+              alt=""
+              class="content__decor-1"
+            />
+            <img
+              src="./asset/icons/header-decor-2.svg"
+              alt=""
+              class="content__decor-2"
+            />
+            <img
+              src="./asset/icons/header-decor-2.svg"
+              alt=""
+              class="content__decor-3"
+            />
+            <img
+              src="./asset/icons/header-decor-2.svg"
+              alt=""
+              class="content__decor-4"
+            />
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="./asset/img/header-img.svg" alt="" class="img--task" />
+          <img src="./asset/img/header-img-card.svg" alt="" class="img--card" />
+          <img
+            src="./asset/img/header-img-decor-left.svg"
+            alt=""
+            class="img--decor--left"
+          />
+          <img
+            src="./asset/img/header-img-decor-right.svg"
+            alt=""
+            class="img--decor--right"
+          />
+        </div>
+      </div>
+    </header>
+    <script type="module" src="./scr/index.js"></script>
+  </body>
 </html>
