@@ -125,6 +125,30 @@ a {
   text-align: center;
 }
 
+.title-decor-left-top,
+.title-decor-right-top,
+.title-decor-right-bot,
+.title-decor-left-bot {
+  position: absolute;
+}
+
+.title-decor-left-top {
+  top: -9px;
+  left: -9px;
+}
+.title-decor-right-top {
+  top: -9px;
+  right: -9px;
+}
+.title-decor-right-bot {
+  right: -9px;
+  bottom: -9px;
+}
+.title-decor-left-bot {
+  left: -9px;
+  bottom: -9px;
+}
+
 .header__title {
   display: inline-block;
   max-width: 783px;
@@ -136,17 +160,14 @@ a {
 }
 
 .title__highlight {
+  position: relative;
   background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  /* Heading/H1 Heading 60px */
-  font-family: Sora;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 70px;
+  border: 1px dashed #fff;
+  padding: 5px 0px 0px 4px;
+  margin-right: 6px;
 }
 
 .header__sub--title {
@@ -167,8 +188,9 @@ a {
 .header__action--btn {
   color: #f9f9f9;
   text-align: center;
+  width: 199px;
+  height: 54px;
   line-height: 26px; /* 162.5% */
-  padding: 14px 54px;
   border-radius: 8px;
   background: var(--Text-Color-gray-2, #282c30);
   box-shadow: 1px 8px 45px 0px rgba(0, 0, 0, 0.25);
@@ -193,33 +215,16 @@ a {
   right: 28px;
 }
 
-.content__decor-1 {
-  width: 121px;
-  height: 121px;
-}
-.content__decor-2 {
-  margin-top: 41px;
-  width: 39px;
-  height: 39px;
-}
-.content__decor-3 {
-  margin-top: 36px;
-  width: 25px;
-  height: 25px;
-}
-.content__decor-4 {
-  margin-top: 39px;
-  width: 14px;
-  height: 14px;
-}
-
 .header__image {
   margin-top: 111px;
   position: relative;
-}
-
-.img--task {
+  text-align: center;
+  background-image: url("../img/header-img.svg");
+  background-repeat: no-repeat;
   margin-left: 181px;
+  width: 848px;
+  height: 366px;
+  background-size: contain;
 }
 
 .img--card,
@@ -230,19 +235,17 @@ a {
 
 .img--card {
   top: 177px;
-  left: 106px;
+  left: -75px;
 }
 
 .img--decor--left {
   z-index: -1;
   top: 350px;
-  left: 60px;
+  left: -111px;
 }
 
 .img--decor--right {
   z-index: -1;
   top: 158px;
-  right: 48px;
+  right: -66px;
 }
-
-/* Next responsive */
