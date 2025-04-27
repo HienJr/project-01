@@ -1,9 +1,14 @@
 @media (max-width: 575.98px) {
   .container {
     padding: 0 28px;
-    max-width: 390px;
+    max-width: 100%;
   }
 
+  .nav {
+    width: 100%;
+    margin-left: -28px;
+    padding-left: 28px;
+  }
   .nav__wrapper {
     margin-left: 0px;
   }
@@ -108,5 +113,46 @@
     z-index: -1;
     top: 15px;
     right: -70px;
+  }
+
+  /* ---------------------------------------------------------------------------Service */
+
+  .service {
+    margin-top: 80px;
+  }
+
+  .service__content {
+    flex-direction: column;
+    width: 319px;
+    height: 862px;
+    row-gap: 56px;
+    padding: 56px 57px;
+  }
+
+  .service__item--wrap {
+    width: 208px;
+  }
+
+  .item__title {
+    margin-top: 31px;
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .item__subtitle {
+    margin-top: 11px;
+    line-height: normal;
+  }
+
+  .service__dash-line {
+    left: 62px;
+  }
+
+  .line--left {
+    top: 268px;
+  }
+
+  .line--right {
+    top: 518px;
   }
 }

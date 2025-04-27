@@ -16,7 +16,7 @@ body {
   font-family: "Sora", sans-serif;
   font-weight: 400;
   background: #131517;
-  color: #fff;
+  color: #f9f9f9;
 }
 /* Common */
 a,
@@ -45,6 +45,7 @@ a {
   max-width: (100% - 50px);
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 /* ---------------------------------------------------------------------------Header */
@@ -248,4 +249,52 @@ a {
   z-index: -1;
   top: 158px;
   right: -66px;
+}
+
+/* ---------------------------------------------------------------------------Service */
+
+.service {
+  margin-top: 266px;
+}
+
+.service__content {
+  position: relative;
+  display: flex;
+  column-gap: 142px;
+  width: 1096px;
+  height: 331px;
+  border-radius: 27px;
+  background: #282c30;
+  padding: 71px 50px;
+}
+
+.service__item--wrap {
+  max-width: 239px;
+  text-align: center;
+}
+
+.item__title {
+  margin-top: 30px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 32px; /* 145.455% */
+}
+
+.item__subtitle {
+  margin-top: 5px;
+  line-height: 26px;
+  color: #767c85;
+}
+
+.service__dash-line {
+  position: absolute;
+  top: 102px;
+}
+
+.line--left {
+  left: 259px;
+}
+
+.line--right {
+  right: 259px;
 }
