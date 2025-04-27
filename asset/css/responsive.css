@@ -155,4 +155,66 @@
   .line--right {
     top: 518px;
   }
+  /* ---------------------------------------------------------------------------Daily-task */
+  .daily-task {
+    margin-top: 80px;
+  }
+
+  .daily-task__content {
+    flex-direction: column;
+    row-gap: 80px;
+  }
+
+  .task__title {
+    max-width: 279px;
+    font-size: 3rem;
+  }
+
+  .task__sub {
+    margin-top: 7px;
+    max-width: 290px;
+    font-size: 1.2rem;
+    line-height: 22px;
+  }
+
+  .left__wrap--bot {
+    margin-top: 37px;
+    column-gap: 0px;
+    justify-content: center;
+  }
+
+  .data-btn {
+    width: 104px;
+    height: 98px;
+    padding: 15px 18px;
+    margin: -5px;
+  }
+
+  .data-btn:nth-child(2) {
+    z-index: 1;
+    margin-top: 56px;
+  }
+
+  .number {
+    font-size: 2rem;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  .data-btn:nth-child(2) .title {
+    line-height: normal;
+  }
+
+  .dost-list {
+    display: none;
+  }
+
+  .right-wrap {
+    scale: 0.55;
+    margin-left: -110px;
+  }
 }

@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   background: #131517;
   color: #f9f9f9;
+  margin: 0;
 }
 /* Common */
 a,
@@ -45,7 +46,6 @@ a {
   max-width: (100% - 50px);
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 }
 
 /* ---------------------------------------------------------------------------Header */
@@ -297,4 +297,176 @@ a {
 
 .line--right {
   right: 259px;
+}
+
+/* ---------------------------------------------------------------------------Daily-task */
+.daily-task {
+  margin-top: 140px;
+}
+
+.daily-task__content {
+  display: flex;
+  column-gap: 63px;
+}
+
+.task__title {
+  max-width: 368px;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.task__title-highlight {
+  background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.task__sub {
+  margin-top: 22px;
+  max-width: 537px;
+  color: #858b93;
+  line-height: 26px; /* 162.5% */
+}
+
+.left__wrap--bot {
+  position: relative;
+  margin-top: 86px;
+  display: flex;
+  column-gap: 17px;
+}
+
+.data-btn {
+  width: 132px;
+  height: 127px;
+  border-radius: 9px;
+  background: #272633;
+  text-align: center;
+  padding: 21px;
+}
+
+.data-btn:nth-child(2) {
+  margin-top: 34px;
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.title {
+  text-align: center;
+  margin-top: 16px;
+  color: #858b93;
+}
+
+.active-user {
+  display: inline-block;
+  margin-top: 6px;
+  width: 61px;
+  line-height: 26px;
+}
+
+.active-data-btn .title {
+  color: #f9f9f9;
+}
+
+.dost-list {
+  position: absolute;
+  display: flex;
+  column-gap: 5px;
+  top: 0;
+  left: 202px;
+}
+
+.task-dost {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #272633;
+}
+
+.active-data-btn {
+  background: linear-gradient(
+    192deg,
+    #c4f566 -43.72%,
+    #ae8ef9 -5.87%,
+    #ef8f00 52.36%,
+    #61e559 122.78%
+  );
+}
+
+.right-wrap {
+  position: relative;
+}
+
+.task__background,
+.task__dash-shape-big,
+.task__dash-shape-small,
+.task__dash-shape,
+.task__support-btn,
+.task__exercitation-btn,
+.task__design-btn,
+.task__d-btn {
+  position: absolute;
+}
+
+.task__background {
+  left: 63px;
+  /* animation: turn-reverse 25s infinite ease-in-out; */
+}
+
+.task__dash-shape-big {
+  top: 35px;
+  left: 118px;
+  animation: turn 25s infinite ease-in-out;
+}
+
+.task__dash-shape-small {
+  top: 95px;
+  left: 178px;
+  animation: turn-reverse 25s infinite ease-in-out;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.task__dash-shape {
+  top: 151px;
+  left: 234px;
+}
+
+.task__support-btn {
+  top: 62px;
+  left: 58px;
+}
+
+.task__exercitation-btn {
+  top: 55px;
+  left: 382px;
+}
+
+.task__design-btn {
+  top: 392px;
+  left: 398px;
+}
+
+.task__d-btn {
+  top: 318px;
+  left: 21px;
+}
+
+@keyframes turn {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+@keyframes turn-reverse {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: -360deg;
+  }
 }
